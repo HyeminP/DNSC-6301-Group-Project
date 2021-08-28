@@ -72,6 +72,7 @@
   * Math or software problems:
   * Real-world risks: who, what, when or how?
 * **Describe potential uncertainties relating to the impacts of using your model**:
-     * Math or software problems: Uncertain in how the math will translate across given how as said above, data is classified and coded together but not individually
+     * Math or software problems: 
+       * Uncertain in how the math will translate across given how as said above, data is classified and coded together but not individually
      * Using the cutoff we did to calculate the AIR, even if we change them, historically credit score calculations are inherently biased as they 
   * Real-world risks: who, what, when or how?

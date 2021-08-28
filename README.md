@@ -73,6 +73,11 @@
   * Real-world risks: who, what, when or how?
 * **Describe potential uncertainties relating to the impacts of using your model**:
      * Math or software problems: 
-        * Uncertain in how the math will translate across given how as said above, data is classified and coded together but not individually
-        * Using the cufoff values we used to calculate the AIR, even if we manipulate it, historical credit score calcuations are inherently biased due to the way race is coded in the data
+        * Uncertain in how the maths will translate across especially given how race is coded in the data and using those cutoff to calculate, even historically how credit scores are calculated
+        * software has limitations, at risk individuals can be broken down by race, black vs asian for example just by simple coding of race in the model and what numbers are assigned to each race. So even if we change the coding of race, we could potentially inject more biases like if we changed the numbers we coded each race, and put black as 1 and cycled every race up a number
+        * Even if we modify our biases to try to rectify them, the uncertainty is that we could be injecting more bias into the model, which then becomes an ethics issue, how much bias are we willing to accept before we skew the model too much
   * Real-world risks: who, what, when or how?
+        * Age demographics have huge uncertainty, younger people are less secure in their finances and that reflects on credit scores and subsequently their ability to qualify for credit increases. So credit increases while younger would be more volatile and uncertain which makes it hard to model in a concrete fashion
+        * Data gets more polarised based on income and age, and if the model is based on these inputs, the results for approving credit increases also becomes more polarising which can become inherent
+        * data poisoning and hacking also have the potential to create uncertainty in the model, data breaches beyond a company’s control could lead to data poisoning which is hard to rectify from within the model
+        * there are many factors that contributes to on time credit payments  that we cannot control or even try to code for in the data, so any manipulation of data coding creates more uncertainty in validity of our model for example accidents and natural disasters that affect on time credit payments so by just using a rigid model, it doesn’t account for real life incidents

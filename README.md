@@ -44,7 +44,13 @@
 * **Number of rows in test data**: 7,500
 * **State any differences in columns between training and test data**: None
 
-
+### Model Details
+* **Columns used as inputs in the final model**:
+* **columns used as targets in the final model**:
+* **Type of model**:
+* **Software used to implement the model**:
+* **Version of the modeling software**:
+* **Hyperparameters or other settings of your model**:
 
 
 
@@ -63,5 +69,6 @@
   * Math or software problems:
   * Real-world risks: who, what, when or how?
 * **Describe potential uncertainties relating to the impacts of using your model**:
-  * Math or software problems:
+     * Math or software problems: Uncertain in how the math will translate across given how as said above, data is classified and coded together but not individually
+     * Using the cutoff we did to calculate the AIR, even if we change them, historically credit score calculations are inherently biased as they 
   * Real-world risks: who, what, when or how?

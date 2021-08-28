@@ -4,7 +4,7 @@
 
 ### Basic Information
 
-* **Person or organization developing model**: Patrick Hall, `jphall@gwu.edu`
+* **Person or organization developing model**: Melis Diken, Andrea Ho, Myemin Park, Chanmi Shin
 * **Model date**: August, 2021
 * **Model version**: 1.0
 * **License**: MIT

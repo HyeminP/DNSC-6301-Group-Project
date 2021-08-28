@@ -54,6 +54,7 @@
 
 ### Quantitative Analysis
 * **Metrics used to evaluate your final model**:
+  * 
 * **State the final values of the metrics for all data: training, validation, and test data**:
 * **Provide any plots related to your data or final model**:
 

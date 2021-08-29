@@ -4,7 +4,7 @@
 
 ### Basic Information
 
-* **Person or organization developing model**: Melis Diken 'midiken@gwu.edu', Andrea Ho 'andreaho@gwu.edu', Hyemin Park 'hyemin0918@gwu.edu', Chanmi Shin 'chanmishin@gwu.edu'
+* **Person or organization developing model**: Melis Diken ', Andrea Ho 'andreaho@gwu.edu', Hyemin Park 'hyemin0918@gwu.edu", Chanmi Shin "chanmishin@gwu.edu'
 * **Model date**: August, 2021
 * **Model version**: 1.0
 * **License**: MIT
@@ -46,55 +46,46 @@
 
 ### Model Details
 * **Columns used as inputs in the final model**:
-   * 'LIMIT_BAL'
-   * 'PAY_0'
-   * 'PAY_2'
-   * 'PAY_3'
-   * 'PAY_4'
-   * 'PAY_5'
-   * 'PAY_6'
-   * 'BILL_AMT1'
-   * 'BILL_AMT2'
-   * 'BILL_AMT3'
-   * 'BILL_AMT4'
-   * 'BILL_AMT5'
-   * 'BILL_AMT6'
-   * 'PAY_AMT1'
-   * 'PAY_AMT2'
-   * 'PAY_AMT3'
-   * 'PAY_AMT4'
-   * 'PAY_AMT5'
-   * 'PAY_AMT6'
-
 * **columns used as targets in the final model**:
-   * 'DELINQ_NEXT'
-
 * **Type of model**:
-   * Decision Tree Model
-
 * **Software used to implement the model**:
-   * Python from our colab, library(sklearn)
- 
 * **Version of the modeling software**:
-   * Python 3.6.9
-  
 * **Hyperparameters or other settings of your model**:
 
 ### Quantitative Analysis
 * **Metrics used to evaluate your final model**:
   * Area Under Curve (AUC)
+·   Area under the ROC curve, which is a graph showing the performance of a classification model with the true positive rate and false positive rate
+·   Assesses performance of binary classification models (indicates accuracy of the model)
+·   Should be between 0.5 - 0.95, with higher values being better
+·   The probability that the model ranks a random positive example more highly than a random negative example
+·   Measured for the training data, validation data, and test data respectively
+
+  * Adverse Impact Ratio (AIR)
+·   The ratio of the acceptance rate of the protected group to the acceptance rate of the controlled group of the dataset
+·   Assesses the reliability of the model in terms of its ability to e biases in the process of deriving results
+·   Should be greater than 0.8 to consider the bias of the model insignificant enough to make the model reliable
+
+  * Data Partition
+Assigned the following ratio for each process, giving a sufficient proportion to validation and testing to build a rigorous modeling process 
+·   Training Data 50%
+·   Validation Data 25%
+·   Test Data 25%
+
+
 * **State the final values of the metrics for all data: training, validation, and test data**:
+As per the Jupyter notebook, the results for test used for our evaluation are as follows: 
+-        Training AUC: 0.78
+-        Validation AUC: 0.75
+-        Test AUC: 0.74
+-        Asian-to-White AIR: 1.01
+-        Black-to-White AIR: 0.85
+-        Hispanic-to-White AIR: 0.83
+-        Female-to-Male AIR: 1.03
+
 * **Provide any plots related to your data or final model**:
 
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/89415811/131252295-0152d6f9-0c1a-4a1b-bd40-92749bab7626.png)
 
 ### Ethical Considerations
 * **Describe potential negative impacts/uncertainties relation to the impacts of using your model**:

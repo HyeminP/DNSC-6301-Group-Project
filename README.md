@@ -73,7 +73,11 @@
    * Decision Tree Model
 
 * **Software used to implement the model**:
+   * Python from our colab, library(sklearn)
+ 
 * **Version of the modeling software**:
+   * Python 3.6.9
+  
 * **Hyperparameters or other settings of your model**:
 
 ### Quantitative Analysis

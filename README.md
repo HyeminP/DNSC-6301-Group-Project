@@ -4,7 +4,7 @@
 
 ### Basic Information
 
-* **Person or organization developing model**: Melis Diken ''midiken@gwu.edu', Andrea Ho 'andreaho@gwu.edu', Hyemin Park 'hyemin0918@gwu.edu", Chanmi Shin "chanmishin@gwu.edu'
+* **Person or organization developing model**: Melis Diken '', Andrea Ho 'andreaho@gwu.edu', Hyemin Park 'hyemin0918@gwu.edu', Chanmi Shin 'chanmishin@gwu.edu'
 * **Model date**: August, 2021
 * **Model version**: 1.0
 * **License**: MIT
@@ -45,18 +45,18 @@
 * **State any differences in columns between training and test data**: None
 
 ### Model Details
-* **Columns used as inputs in the final model**:
-* **columns used as targets in the final model**:
-* **Type of model**:
-* **Software used to implement the model**:
-* **Version of the modeling software**:
-* **Hyperparameters or other settings of your model**:
+* **Columns used as inputs in the final model**: 'LIMIT_BAL', 'PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6'
+
+* **columns used as targets in the final model**: 'DELINQ_NEXT'
+* **Type of model**: Decision Tree Model
+* **Software used to implement the model**: Python on colab, library(sklearn)
+* **Version of the modeling software**: Python 3.6.9
+* **Hyperparameters or other settings of your model**: Training, Validation & Test AUC, Asian-to-White AIR, Black-to-White AIR, Female-to-Male AIR, Hispanic-to-White AIR
 
 ### Quantitative Analysis
 * **Metrics used to evaluate your final model**:
   * Area Under Curve (AUC)
-    * Area under the ROC curve, which is a graph showing the performance of a classification model with the true positive rate and false positive rate
-    * The probability that the model ranks a random positive example more highly than a random negative example
+    * Area under the ROC curve, which is a graph showing the performance of a classification model with the true positive rate and false positive rate (the probability that the model ranks a random positive example more highly than a random negative example)
     * Assesses performance of binary classification models (indicates accuracy of the model)
     * Should be between 0.5 - 0.95, with higher values being better
     * Measured for the training data, validation data, and test data respectively
@@ -87,14 +87,11 @@ Female-to-Male AIR: 1.03
 
 ![image](https://user-images.githubusercontent.com/89415811/131252295-0152d6f9-0c1a-4a1b-bd40-92749bab7626.png)
 
-As shown in the iteration plot, the Validation AUC is the highest when the depth of the tree is at 6
-The AIR for the controlled group (‘White’, ‘Male’) and protected group (‘Hispanic’, ‘Black’, ‘Asian’, ‘Female’) are all in an acceptable range (0.5-0.95) at the tree depth 6
+  * As shown in the iteration plot, the Validation AUC is the highest when the depth of the tree is at 6
+  * The AIR for the controlled group (‘White’, ‘Male’) and protected group (‘Hispanic’, ‘Black’, ‘Asian’, ‘Female’) are all in an acceptable range (0.5-0.95) at the tree depth 6
 
 
 ### Ethical Considerations
-* **Describe potential negative impacts/uncertainties relation to the impacts of using your model**:
-  * Math or software problems:
-  * Real-world risks: who, what, when or how?
 
 **Biases**
 

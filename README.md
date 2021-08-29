@@ -57,9 +57,21 @@
    * 'BILL_AMT2'
    * 'BILL_AMT3'
    * 'BILL_AMT4'
-   * 
+   * 'BILL_AMT5'
+   * 'BILL_AMT6'
+   * 'PAY_AMT1'
+   * 'PAY_AMT2'
+   * 'PAY_AMT3'
+   * 'PAY_AMT4'
+   * 'PAY_AMT5'
+   * 'PAY_AMT6'
+
 * **columns used as targets in the final model**:
+   * 'DELINQ_NEXT'
+
 * **Type of model**:
+   * Decision Tree Model
+
 * **Software used to implement the model**:
 * **Version of the modeling software**:
 * **Hyperparameters or other settings of your model**:

@@ -69,16 +69,13 @@
 
 
 ### Ethical Considerations
-* **Describe potential negative impacts of using your model**:
+* **Describe potential negative impacts/uncertainties relation to the impacts of using your model**:
   * Math or software problems:
   * Real-world risks: who, what, when or how?
-* **Describe potential uncertainties relating to the impacts of using your model**:
-     * Math or software problems: 
-        * Uncertain in how the maths will translate across especially given how race is coded in the data and using those cutoff to calculate, even historically how credit scores are calculated
-        * software has limitations, at risk individuals can be broken down by race, black vs asian for example just by simple coding of race in the model and what numbers are assigned to each race. So even if we change the coding of race, we could potentially inject more biases like if we changed the numbers we coded each race, and put black as 1 and cycled every race up a number
-        * Even if we modify our biases to try to rectify them, the uncertainty is that we could be injecting more bias into the model, which then becomes an ethics issue, how much bias are we willing to accept before we skew the model too much
-  * Real-world risks: who, what, when or how?
-       * Age demographics have huge uncertainty, younger people are less secure in their finances and that reflects on credit scores and subsequently their ability to qualify for credit increases. So credit increases while younger would be more volatile and uncertain which makes it hard to model in a concrete fashion
-       * Data gets more polarised based on income and age, and if the model is based on these inputs, the results for approving credit increases also becomes more polarising which can become inherent
-       * data poisoning and hacking also have the potential to create uncertainty in the model, data breaches beyond a company’s control could lead to data poisoning which is hard to rectify from within the model
-       * there are many factors that contributes to on time credit payments  that we cannot control or even try to code for in the data, so any manipulation of data coding creates more uncertainty in validity of our model for example accidents and natural disasters that affect on time credit payments so by just using a rigid model, it doesn’t account for real life incidents
+**Biases**
+Although biases are considered in the training process and tested so that it is minimized, it is extremely difficult to completely eliminate biases in the model. A decision tree, by its nature, only allows nodes with binary choices that must be expressed in numbers. This also applies to variables that are not numerical or cannot be quantitatively measured (e.g., race, gender, etc.), which means that the model could be trained to give preferable outputs for a specific type of group. In other words, the model still contains the risk of producing biased and inaccurate outputs that has the potential of impacting the evaluation of individuals, eventually leading to incorrect decisions.
+
+**Data Security**
+Another potential ethical issue of the decision model can be on data security. While it is important for the user of the model to put significant effort on protecting personal data, it is challenging to control external attacks on the data or model. Such attacks could be data poisoning, backdoors and watermarks, model inversion, adversarial, impersonation, etc. The reason these attacks are threatening and uncontrollable is because of the uncertainty of their occurrences: you can never know who, what, how, or when the data will be attacked. Therefore, decision-makers should always consider the possibility of such risks and be prepared with a safety net to protect the data and model.
+
+

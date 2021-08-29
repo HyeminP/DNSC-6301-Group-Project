@@ -49,6 +49,15 @@
    * 'LIMIT_BAL'
    * 'PAY_0'
    * 'PAY_2'
+   * 'PAY_3'
+   * 'PAY_4'
+   * 'PAY_5'
+   * 'PAY_6'
+   * 'BILL_AMT1'
+   * 'BILL_AMT2'
+   * 'BILL_AMT3'
+   * 'BILL_AMT4'
+   * 
 * **columns used as targets in the final model**:
 * **Type of model**:
 * **Software used to implement the model**:

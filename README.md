@@ -67,10 +67,10 @@
     * Should be greater than 0.8 to consider the bias of the model insignificant enough to make the model reliable
 
   * Data Partition
-Assigned the following ratio for each process, giving a sufficient proportion to validation and testing to build a rigorous modeling process 
-    * Training Data 50%
-    * Validation Data 25%
-    * Test Data 25%
+    * Assigned the following ratio for each process, giving a sufficient proportion to validation and testing to build a rigorous modeling process 
+      * Training Data 50%
+      * Validation Data 25%
+      * Test Data 25%
 
 
 * **State the final values of the metrics for all data: training, validation, and test data**:

@@ -72,10 +72,13 @@
 * **Describe potential negative impacts/uncertainties relation to the impacts of using your model**:
   * Math or software problems:
   * Real-world risks: who, what, when or how?
+
 **Biases**
+
 Although biases are considered in the training process and tested so that it is minimized, it is extremely difficult to completely eliminate biases in the model. A decision tree, by its nature, only allows nodes with binary choices that must be expressed in numbers. This also applies to variables that are not numerical or cannot be quantitatively measured (e.g., race, gender, etc.), which means that the model could be trained to give preferable outputs for a specific type of group. In other words, the model still contains the risk of producing biased and inaccurate outputs that has the potential of impacting the evaluation of individuals, eventually leading to incorrect decisions.
 
 **Data Security**
+
 Another potential ethical issue of the decision model can be on data security. While it is important for the user of the model to put significant effort on protecting personal data, it is challenging to control external attacks on the data or model. Such attacks could be data poisoning, backdoors and watermarks, model inversion, adversarial, impersonation, etc. The reason these attacks are threatening and uncontrollable is because of the uncertainty of their occurrences: you can never know who, what, how, or when the data will be attacked. Therefore, decision-makers should always consider the possibility of such risks and be prepared with a safety net to protect the data and model.
 
 

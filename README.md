@@ -56,21 +56,21 @@
 * **Metrics used to evaluate your final model**:
   * Area Under Curve (AUC)
     * Area under the ROC curve, which is a graph showing the performance of a classification model with the true positive rate and false positive rate
-Assesses performance of binary classification models (indicates accuracy of the model)
-Should be between 0.5 - 0.95, with higher values being better
-The probability that the model ranks a random positive example more highly than a random negative example
-Measured for the training data, validation data, and test data respectively
+    * The probability that the model ranks a random positive example more highly than a random negative example
+    * Assesses performance of binary classification models (indicates accuracy of the model)
+    * Should be between 0.5 - 0.95, with higher values being better
+    * Measured for the training data, validation data, and test data respectively
 
   * Adverse Impact Ratio (AIR)
-The ratio of the acceptance rate of the protected group to the acceptance rate of the controlled group of the dataset
-Assesses the reliability of the model in terms of its ability to e biases in the process of deriving results
-Should be greater than 0.8 to consider the bias of the model insignificant enough to make the model reliable
+    * The ratio of the acceptance rate of the protected group to the acceptance rate of the controlled group of the dataset
+    * Assesses the reliability of the model in terms of its ability to e biases in the process of deriving results
+    * Should be greater than 0.8 to consider the bias of the model insignificant enough to make the model reliable
 
   * Data Partition
 Assigned the following ratio for each process, giving a sufficient proportion to validation and testing to build a rigorous modeling process 
-Training Data 50%
-Validation Data 25%
-Test Data 25%
+    * Training Data 50%
+    * Validation Data 25%
+    * Test Data 25%
 
 
 * **State the final values of the metrics for all data: training, validation, and test data**:

@@ -46,9 +46,16 @@
 
 ### Model Details
 * **Columns used as inputs in the final model**:
+  * 'LIMIT_BAL'
+ 
 * **columns used as targets in the final model**:
+  * 'DELINQ_NEXT'
+
 * **Type of model**:
+  * Decision Tree Model
+
 * **Software used to implement the model**:
+  * Python as seen on our colab, primarily library(sklearn)
 * **Version of the modeling software**:
 * **Hyperparameters or other settings of your model**:
 

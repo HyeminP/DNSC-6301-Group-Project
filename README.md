@@ -75,17 +75,21 @@ Assigned the following ratio for each process, giving a sufficient proportion to
 
 * **State the final values of the metrics for all data: training, validation, and test data**:
 As per the Jupyter notebook, the results for test used for our evaluation are as follows: 
--        Training AUC: 0.78
--        Validation AUC: 0.75
--        Test AUC: 0.74
--        Asian-to-White AIR: 1.01
--        Black-to-White AIR: 0.85
--        Hispanic-to-White AIR: 0.83
--        Female-to-Male AIR: 1.03
+·   Training AUC: 0.78
+·   Validation AUC: 0.75
+·   Test AUC: 0.74
+·   Asian-to-White AIR: 1.01
+·   Black-to-White AIR: 0.85
+·   Hispanic-to-White AIR: 0.83
+·   Female-to-Male AIR: 1.03
 
 * **Provide any plots related to your data or final model**:
 
 ![image](https://user-images.githubusercontent.com/89415811/131252295-0152d6f9-0c1a-4a1b-bd40-92749bab7626.png)
+
+·   As shown in the iteration plot, the Validation AUC is the highest when the depth of the tree is at 6
+·   The AIR for the controlled group (‘White’, ‘Male’) and protected group (‘Hispanic’, ‘Black’, ‘Asian’, ‘Female’) are all in an acceptable range (0.5-0.95) at the tree depth 6
+
 
 ### Ethical Considerations
 * **Describe potential negative impacts/uncertainties relation to the impacts of using your model**:

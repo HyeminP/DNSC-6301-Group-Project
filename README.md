@@ -4,7 +4,7 @@
 
 ### Basic Information
 
-* **Person or organization developing model**: Melis Diken 'midiken@gwu.edu', Andrea Ho 'andreaho@gwu.edu', Hyemin Park 'hyemin0918@gwu.edu", Chanmi Shin "chanmishin@gwu.edu'
+* **Person or organization developing model**: Melis Diken 'midiken@gwu.edu', Andrea Ho 'andreaho@gwu.edu', Hyemin Park 'hyemin0918@gwu.edu', Chanmi Shin 'chanmishin@gwu.edu'
 * **Model date**: August, 2021
 * **Model version**: 1.0
 * **License**: MIT
@@ -46,6 +46,9 @@
 
 ### Model Details
 * **Columns used as inputs in the final model**:
+   * 'LIMIT_BAL'
+   * 'PAY_0'
+   * 'PAY_2'
 * **columns used as targets in the final model**:
 * **Type of model**:
 * **Software used to implement the model**:

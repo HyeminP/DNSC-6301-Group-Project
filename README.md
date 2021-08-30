@@ -75,13 +75,13 @@
 
 * **State the final values of the metrics for all data: training, validation, and test data**:
 As per the Jupyter notebook, the results for test used for our evaluation are as follows: 
-Training AUC: 0.78
-Validation AUC: 0.75
-Test AUC: 0.74
-Asian-to-White AIR: 1.01
-Black-to-White AIR: 0.85
-Hispanic-to-White AIR: 0.83
-Female-to-Male AIR: 1.03
+* Training AUC: 0.78
+* Validation AUC: 0.75
+* Test AUC: 0.74
+* Asian-to-White AIR: 1.01
+* Black-to-White AIR: 0.85
+* Hispanic-to-White AIR: 0.83
+* Female-to-Male AIR: 1.03
 
 * **Provide any plots related to your data or final model**:
 
